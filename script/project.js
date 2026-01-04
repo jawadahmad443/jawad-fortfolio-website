@@ -3,7 +3,7 @@ const projectList = [
     {
         id: 1,
         number: "01",
-        title: "Amazone - Clone",
+        title: "Amazone ",
         discription: "Developed a responsive e-commerce web application inspired by Amazon. Implemented product listing, navigation, and UI components using Bootstrap. Created interactive user interface with dynamic elements Focused on modern design, responsiveness, and usability",
         teachStack: ["HTML, CSS, Bootstrap, JavaScript"],
         image: "assets/projects/project1.webp",
