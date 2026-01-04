@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+
+    <link rel="shortcut icon" href="assets/img-logo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="style/services.css">
+    <link rel="stylesheet" href="style/about.css">
+    <link rel="stylesheet" href="style/projects.css">
+    <link rel="stylesheet" href="style/contact.css">
+
+    <link href='https://cdn.boxicons.com/3.0.6/fonts/basic/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.8.0/fonts/remixicon.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <div class="main-container">
+        <header>
+            <div class="brand-info">
+                <img src="assets/img-logo1.png" alt="logo img error" loading="lazy">
+                <h2>Jawad</h2>
+            </div>
+
+            <div class="menu-area">
+
+                <input type="checkbox" id="menu-toggle" hidden>
+                <label for="menu-toggle" class="menu-icon">
+                    <i class='bx  bx-menu'></i>
+                </label>
+                <label for="menu-toggle" id="overlay"></label>
+
+                <nav>
+                    <a href="#" style="--i: 1" data-tab="home" class="navlink active">Home</a>
+                    <a href="#" style="--i: 2" data-tab="services" class="navlink">Services</a>
+                    <a href="#" style="--i: 3" data-tab="about" class="navlink">About</a>
+                    <a href="#" style="--i: 4" data-tab="projects" class="navlink">Projects</a>
+                    <a href="#" style="--i: 5" data-tab="contact" class="navlink">Contact</a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- home -->
+        <section id="home" class="content active">
+            <div class="details">
+                <h2><span>Jawad </span>Ahmad</h2>
+                <h3>I`am
+                    <span id="typing-span"></span>
+                </h3>
+                <p>I'm Jawad, a front-end web developer who builds clean and responsive websites.
+                    I work with HTML, CSS, JavaScript, Bootstrap, and React.js to create dynamic user interfaces.
+                    I enjoy turning ideas into real web experiences and constantly learning new tools to improve my
+                    skills.</p>
+
+                <div class="bottom">
+                    <!-- <button class="btn">Download CV</button> -->
+                    <a href="assets/wordpress-cv.pdf" class="btn" target="_blank">Download CV</a>
+
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-youtube"></i></a>
+                        <a href="https://github.com/jawadahmad443" target="_blank"><i
+                                class="fa-brands fa-square-github"></i></a>
+                        <a href="https://www.linkedin.com/in/jawad-ahmad-715761394" target="_blank"><i
+                                class="fa-brands fa-square-linkedin"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="img-container">
+                <img src="assets/final-pic.png" alt="image error." title="Profile Pecture" loading="lazy">
+
+            </div>
+        </section>
+
+        <!-- services -->
+        <section id="services" class="content">
+            <h2>My <span>Services</span></h2>
+
+            <div class="service-list">
+
+
+            </div>
+
+        </section>
+
+        <!-- about -->
+        <section id="about" class="content">
+            <div class="sidebar">
+                <h3>Why Hire Me</h3>
+                <p>I’m a Frontend & WordPress Developer who builds clean, responsive, and user-friendly websites.
+                    From custom WordPress themes to modern frontend UI, I focus on creating fast, secure, and
+                    high-quality websites that match client needs.
+                    I communicate clearly, deliver work on time, and always make sure the final result is smooth,
+                    functional, and professional.
+                    Clients hire me because I combine technical skills with reliability, creativity, and a strong work
+                    ethic.</p>
+
+                <div class="tabs">
+                    <span data-section="experience" class="tab">Experience</span>
+                    <span data-section="education" class="tab">Education</span>
+                    <span data-section="skills" class="tab">Skills</span>
+                    <span data-section="about-me" class="tab">About Me</span>
+                </div>
+
+            </div>
+
+            <aside id="experience" class="tab-content active">
+                <h2>My <span>Experience</span></h2>
+                <p>Here are some of my professional experiences that showcase my journey, skills, and dedication in web
+                    development and collaboration.
+                </p>
+                <div class="experience-list">
+
+                </div>
+            </aside>
+
+            <aside id="education" class="tab-content">
+                <h2>My <span>Education</span></h2>
+                <p>Here are my educational qualifications that have built a strong foundation in technology,
+                    problem-solving, and continuous learning in web development.
+                </p>
+                <div class="education-list">
+
+                </div>
+            </aside>
+
+            <aside id="skills" class="tab-content">
+                <h2>My <span>skills</span></h2>
+                <p>Here are the key skills I've mastered through hands-on experience, enabling me to build high-quality,
+                    scalable, and responsive web applications.
+                </p>
+                <div class="skill-list">
+
+                </div>
+            </aside>
+
+            <aside id="about-me" class="tab-content">
+                <h2>About <span>Me</span></h2>
+                <p>I'm a passionate developer dedicated to building impactful digital experiences, blending creativity
+                    and code to solve real-world problems efficiently and effectively.
+                </p>
+                <div class="my-info"></div>
+            </aside>
+
+        </section>
+
+        <!-- projects -->
+        <section id="projects" class="content">
+
+            <div class="projects"></div>
+
+        </section>
+
+        <!-- contact -->
+        <section id="contact" class="content">
+
+            <div class="contact-info">
+                <h2>Let`s Work <span>Together</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum odit praesentium voluptates nam
+                    voluptatibus impedit consequatur ut nulla, nihil molestias eum numquam incidunt, aliquam voluptatem
+                    doloremque voluptas assumenda illo est?
+                </p>
+
+                <div class="contact-media"></div>
+            </div>
+
+            <form action="#">
+                <fieldset>
+                    <legend><span>Contact</span>Me!</legend>
+
+                    <div class="fields">
+                        <div>
+                            <label for="name">Name :</label>
+                            <input type="text" name="name" id="name" placeholder="Write your name">
+                        </div>
+
+                        <div>
+                            <label for="email">Email :</label>
+                            <input type="email" name="email" id="email" placeholder="enter email">
+                        </div>
+
+                        <div>
+                            <label for="phone">Phone :</label>
+                            <input type="tel" name="phone" id="phone" placeholder="+92123-0000000">
+                        </div>
+
+                        <div>
+                            <label for="message">Message :</label>
+                            <textarea name="message" id="message" cols="30" rows="5"
+                                placeholder="Enter your message"></textarea>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn" id="send-msg">Send Message</button>
+
+                </fieldset>
+
+            </form>
+
+        </section>
+
+
+    </div>
+
+
+    <script src="script/script.js"></script>
+    <script src="script/about.js"></script>
+    <script src="script/project.js"></script>
+    <script src="script/contact.js"></script>
+</body>
+
+</html>
