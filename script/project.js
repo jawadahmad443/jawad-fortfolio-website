@@ -6,7 +6,7 @@ const projectList = [
         title: "Amazone - Clone",
         discription: "Developed a responsive e-commerce web application inspired by Amazon. Implemented product listing, navigation, and UI components using Bootstrap. Created interactive user interface with dynamic elements Focused on modern design, responsiveness, and usability",
         teachStack: ["HTML, CSS, Bootstrap, JavaScript"],
-        image: "assets/projects/amazone-clone.PNG",
+        image: "assets/projects/project1.webp",
         liveLink: "#",
         githubLink: "#",
     },
@@ -20,7 +20,7 @@ const projectList = [
         liveLink: "#",
         githubLink: "#",
     },
-    { 
+    {
         id: 3,
         number: "03",
         title: "WhatsApp - Clone",
