@@ -139,7 +139,7 @@ aboutTabs.forEach((tab) => {
             {
                 id: 4,
                 name: "Wordpress",
-                icon: "assets/skills/wordpress.PNG"
+                icon: "assets/skills/wordpress.png"
             },
             {
                 id: 5,
